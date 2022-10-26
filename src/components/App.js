@@ -7,14 +7,14 @@ import Hobbies from './Hobbies'
 
 function App() {
 	return (
-		<div>
+		<>
 			<NavBar />
 			<Routes>
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/" element={<AboutMe />} />
 				<Route path="/hobbies" element={<Hobbies />} />
 			</Routes>
-		</div>
+		</>
 	);
 }
 

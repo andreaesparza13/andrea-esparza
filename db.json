@@ -2,36 +2,39 @@
    "projects": [
       {
          "id": 1,
-         "name": "Student-Teacher-Resource",
-         "frontend": "React",
-         "backend": "Rails",
+         "name": "Student-Teacher Resource",
+         "frontend": "JavaScript, React",
+         "backend": "Ruby, Rails",
          "css": "TailwindCSS",
          "link": "https://student-teacher-resource.herokuapp.com/",
          "github": "https://github.com/andreaesparza13/final-project",
          "demo": "",
-         "description": ""
+         "description": "",
+         "line": ""
       },
       {
          "id": 2,
          "name": "Wanderlust",
-         "frontend": "React",
-         "backend": "Rails",
+         "frontend": "JavaScript, React",
+         "backend": "Ruby, Rails",
          "css": "TailwindCSS",
          "link": "https://phase-4-wanderlust.herokuapp.com/",
          "github": "https://github.com/nickwarren47/phase-4_project",
          "demo": "",
-         "description": ""
+         "description": "",
+         "line": ""
       },
       {
          "id": 3,
          "name": "Art Gallery",
-         "frontend": "React",
+         "frontend": "JavaScript, React",
          "backend": "Ruby, Sinatra",
          "css": "TailwindCSS",
          "link": "https://phase-3-art-gallery.herokuapp.com/",
          "github": "https://github.com/andreaesparza13/phase-3-sinatra-react-project",
          "demo": "",
-         "description": ""
+         "description": "",
+         "line": ""
       }
    ]
 }

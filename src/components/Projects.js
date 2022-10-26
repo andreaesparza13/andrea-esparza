@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Project from './Project'
+import { Grid, Segment } from 'semantic-ui-react'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
 
@@ -12,7 +13,7 @@ function Projects() {
    }, [])
 
    const projectList = projects.map(project => (
-      <Project
+      <ProjectCard
          key={project.id}
          name={project.name}
          frontend={project.frontend}
@@ -22,11 +23,24 @@ function Projects() {
          github={project.github}
          demo={project.demo}
          description={project.description}
+         line={project.line}
       />
    ))
 
    return (
-      <div>{projectList}</div>
+      <Grid columns={3} divided centered padded>
+         <Grid.Row>
+            <Grid.Column width={4} textAlign='center'>
+               <Segment>{projectList[0]}</Segment>
+            </Grid.Column>
+            <Grid.Column width={4} textAlign='center'>
+               <Segment>{projectList[1]}</Segment>
+            </Grid.Column>
+            <Grid.Column width={4} textAlign='center'>
+               <Segment>{projectList[2]}</Segment>
+            </Grid.Column>
+         </Grid.Row>
+      </Grid>
    )
 }
 
