@@ -1,27 +1,20 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react'
 
 function NavBar() {
-	const [activeItem, setActiveItem] = useState('about')
 	
 	return (
-		<Menu pointing secondary>
-			<NavLink to='/'>
-				<Menu.Item name='about' active={activeItem === 'about'} onClick={() => setActiveItem('about')}>
-					ABOUT ME
-				</Menu.Item>
-			</NavLink>
-			<NavLink to='/projects'>
-				<Menu.Item name='projects' active={activeItem === 'projects'} onClick={() => setActiveItem('projects')}>
-					PROJECTS
-				</Menu.Item>
-			</NavLink>
-			<NavLink to='/hobbies'>
-				<Menu.Item name="hobbies" active={activeItem === 'hobbies'} onClick={() => setActiveItem('hobbies')}>
-					HOBBIES
-				</Menu.Item>
-			</NavLink>
+		<Menu pointing secondary >
+			<Menu.Item as={Link} to='/' name='about' className='menu'>
+				ABOUT ME
+			</Menu.Item>
+			<Menu.Item as={Link} to='/projects' name='projects' className='menu'>
+				PROJECTS
+			</Menu.Item>
+			<Menu.Item as={Link} to='/hobbies' name="hobbies" className='menu'>
+				HOBBIES
+			</Menu.Item>
 		</Menu>
 	);
 }

@@ -14,11 +14,32 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: system-ui, 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.menu-item {
-  color: white;
-  font: bold
+.paragraph {
+  font-family: system-ui, 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.p2 {
+  font-family: system-ui, 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+}
+
+.pics {
+  max-height: 300px;
+}
+
+.menu {
+  font-size: 18px;
+}
+
+.header {
+  font-size: 36px;
+  text-align: center;
 }

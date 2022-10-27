@@ -13,7 +13,7 @@ function Project({ name, frontend, backend, css, link, github, demo, description
             onClose={() => setOpen(false)}
             onOpen={() => setOpen(true)}
             open={open}
-            trigger={<Button>Project Details</Button>}
+            trigger={<Button>Details</Button>}
          >
             <Modal.Header>{name}</Modal.Header>
             <Modal.Content>
