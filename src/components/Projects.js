@@ -29,9 +29,9 @@ function Projects() {
 
    return (
       <Grid columns={3} divided centered padded>
-         <Grid.Row>
+         <Grid.Row className='row'>
             <Grid.Column width={4} textAlign='center'>
-               <Segment>{projectList[0]}</Segment>
+               <Segment className='segment'>{projectList[0]}</Segment>
             </Grid.Column>
             <Grid.Column width={4} textAlign='center'>
                <Segment>{projectList[1]}</Segment>

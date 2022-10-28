@@ -5,7 +5,7 @@ function Project({ name, frontend, backend, css, link, github, demo, description
    const [open, setOpen] = useState(false)
 
    return (
-      <div>
+      <div className='card'>
          <h3>{name}</h3>
          <p>{frontend}, {backend}</p>
          <p>{line}</p>
@@ -13,7 +13,7 @@ function Project({ name, frontend, backend, css, link, github, demo, description
             onClose={() => setOpen(false)}
             onOpen={() => setOpen(true)}
             open={open}
-            trigger={<Button>Details</Button>}
+            trigger={<Button color='black'>Details</Button>}
          >
             <Modal.Header>{name}</Modal.Header>
             <Modal.Content>

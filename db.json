@@ -8,9 +8,9 @@
          "css": "TailwindCSS",
          "link": "https://student-teacher-resource.herokuapp.com/",
          "github": "https://github.com/andreaesparza13/final-project",
-         "demo": "",
-         "description": "",
-         "line": ""
+         "demo": "Orw9Zg3XVYk",
+         "description": "This application is intended to help students and teachers stay organized, especially at the beginning of the school year. Students are able to see their schedule and assignments, and update their personal information for teachers to see. Teachers can keep track of which students are in their class and stay up to date with their information. One of the main reasons I created this app is because so many students prefer to be referred to by a nickname or middle name but all of their paperwork has their legal name.",
+         "line": "Organizational tool for teachers and students."
       },
       {
          "id": 2,
@@ -20,9 +20,9 @@
          "css": "TailwindCSS",
          "link": "https://phase-4-wanderlust.herokuapp.com/",
          "github": "https://github.com/nickwarren47/phase-4_project",
-         "demo": "",
-         "description": "",
-         "line": ""
+         "demo": "beDfx7TYldg",
+         "description": "This application is meant to be a hub for travelers and wanderers, such as my co-creators and myself. Our mutual love for travel led us an interactive application where people can see what others are saying about the countries they want to visit. One of the most exciting aspects is that people can sign up for an account and leave reviews for the countries they've visited.",
+         "line": "An application for people to research destinations and leave reviews after visiting a new place."
       },
       {
          "id": 3,
@@ -32,9 +32,9 @@
          "css": "TailwindCSS",
          "link": "https://phase-3-art-gallery.herokuapp.com/",
          "github": "https://github.com/andreaesparza13/phase-3-sinatra-react-project",
-         "demo": "",
-         "description": "",
-         "line": ""
+         "demo": "k9MlJzkvunY",
+         "description": "This application is a place to learn about art. It's meant to mimic the feeling of walking through a gallery or exhibit where people can learn about both the art and the artist. Anyone who comes across this site can contribute, making this an open source gallery. Visitors can submit an artist or an art piece and it will be added to the collection.",
+         "line": "This application is an immersive open source art experience."
       }
    ]
 }
