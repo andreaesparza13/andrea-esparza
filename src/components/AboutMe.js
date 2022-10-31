@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Container, Image, Icon } from 'semantic-ui-react'
 import me from './files/me.png'
+import resume from './files/Resume.pdf'
 
 function AboutMe() {
    return (
@@ -15,7 +16,7 @@ function AboutMe() {
             Before Flatiron, I spent five years as a geometry teacher and soccer coach at Navarro High School in Austin, TX. While it was incredibly difficult to leave teaching, I have fallen in love with coding in a way I never expected. 
          </p>
          <p className='paragraph'>
-            <Button color='black' href='' download><Icon name="file alternate"/>Resume</Button>
+            <Button color='black' href={resume} download><Icon name="file alternate"/>Resume</Button>
             <Button color='black' href='https://www.linkedin.com/in/andreaesparza13/' target='_blank'><Icon name="linkedin"/>LinkedIn</Button>
             <Button color='black' href='https://github.com/andreaesparza13' target='_blank'><Icon name="github"/>Github</Button>
          </p>
