@@ -7,7 +7,7 @@ function Projects() {
    const [projects, setProjects] = useState([])
 
    useEffect(() => {
-      fetch('https://andrea-esparza-backend.herokuapp.com/projects')
+      fetch('https://andrea-esparza-backend-production.up.railway.app/projects')
       .then(res => res.json())
       .then(data => setProjects(data))
    }, [])
