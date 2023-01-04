@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container, Image, Icon } from 'semantic-ui-react'
 import me from './files/me.png'
-import resume from './files/Resume.pdf'
+import resume from './files/resume.pdf'
 
 function AboutMe() {
    return (
@@ -20,6 +20,7 @@ function AboutMe() {
             <Button color='black' href='https://www.linkedin.com/in/andreaesparza13/' target='_blank'><Icon name="linkedin"/>LinkedIn</Button>
             <Button color='black' href='https://github.com/andreaesparza13' target='_blank'><Icon name="github"/>Github</Button>
          </p>
+         <br/>
       </Container>
    )
 }
