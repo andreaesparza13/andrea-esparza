@@ -9,7 +9,7 @@ function Hobbies() {
       <Grid celled='internally'>
          <Grid.Row>
          <Grid.Column width={4}>
-            <Image src={lady} className='pics' centered/>
+            <Image src={lady} className='pics' centered rounded/>
          </Grid.Column>
          <Grid.Column width={8}>
             <br/>
@@ -20,12 +20,12 @@ function Hobbies() {
             </p>
          </Grid.Column>
          <Grid.Column width={4}>
-            <Image src={wwc} className='pics' centered/>
+            <Image src={wwc} className='pics' centered rounded />
          </Grid.Column>
          </Grid.Row>
          <Grid.Row>
          <Grid.Column width={4}>
-            <Image src={torch} className='pics' centered/>
+            <Image src={torch} className='pics' centered rounded />
          </Grid.Column>
          <Grid.Column width={8}>
             <br/>

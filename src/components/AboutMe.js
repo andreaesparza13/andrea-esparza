@@ -12,7 +12,8 @@ function AboutMe() {
          <p className='paragraph'>   
             Hi there! My name is Andrea Esparza, but most people call me Dre. I live in Houston, TX and recently graduated from Flatiron School as a software engineer. I learned how to program using JavaScript, React, Ruby, and Rails. Click the 'projects' tab to see what I've created and collaborated on. I am excited to continue learning about software engineering and applying it to my work.
          </p>
-         <p className='paragraph'>
+         <p className='para
+         graph'>
             Before Flatiron, I spent five years as a geometry teacher and soccer coach at Navarro High School in Austin, TX. While it was incredibly difficult to leave teaching, I have fallen in love with coding in a way I never expected. 
          </p>
          <p className='paragraph'>
